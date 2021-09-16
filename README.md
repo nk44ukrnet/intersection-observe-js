@@ -5,6 +5,7 @@ basic usage:
 1. select an elemnt(s)
 
 `const sectionAnim = document.querySelectorAll('.section-anim');`
+
 2. add Intersection observer
 
 ```

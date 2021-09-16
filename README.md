@@ -3,8 +3,10 @@ Animating visible (in viewport) blocks with js (new IntersectionObserver) exampl
 
 basic usage:
 1. select an elemnt(s)
+
 `const sectionAnim = document.querySelectorAll('.section-anim');`
 2. add Intersection observer
+
 `const sectionAnimObserve = new IntersectionObserver((entries, observe) => {
         const [entry] = entries;
         if (!entry.isIntersecting) return;
@@ -13,7 +15,9 @@ basic usage:
             observe.unobserve(entry.target);
         }
     },`
+    
 3. Set it to Element(s)
+
 `sectionAnim.forEach(section=>{
     sectionAnimObserve.observe(section);
 });`

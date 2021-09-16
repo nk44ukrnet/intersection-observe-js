@@ -27,4 +27,4 @@ sectionAnim.forEach(section=>{
 });
 ```
 
-more details at test.html test.css test.js files
+more details at index.html test.css test.js files

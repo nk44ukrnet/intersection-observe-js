@@ -21,3 +21,5 @@ basic usage:
 `sectionAnim.forEach(section=>{
     sectionAnimObserve.observe(section);
 });`
+
+more details at test.html test.css test.js files
